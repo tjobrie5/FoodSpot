@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html> 
+<head>
+
+<form action="/html/tags/html_form_tag_action.cfm" method="post">
+<br />
+<textarea name="comments" id="comments">
+</textarea><br />
+<input type="submit" value="Submit" />
+</body>
+</form>
+<style>
+
+.friend #friend-image {
+    border: 2px solid #F0F2F8;
+    display: inline-block;
+    float: left;
+    height: 85px;
+    width: 84px;
+}
+#main #friend #friend-bio {
+    float: left;
+    font-size: 14px;
+    margin: -7px 0 0 20px;
+    width: 454px;
+}
+#main #friend #friend-bio h4 {
+    font-size: 18px;
+    font-weight: normal;
+    margin: 0 0 5px;
+}
+</style>
+<div id ='username' class="friend">
+	
+  <img id ='friend-image' src='http://www.science2health.org/wp-content/uploads/2012/09/healthy-living-woman.jpg'>
+                <div id="friend-bio">
+                    <h4> Andrew Roman</h4>
+                    <p>Great food man!</p>
+                </div>
+</div>
+<script src="File.js"><script>
+
+
+</html>
