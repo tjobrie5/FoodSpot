@@ -3,7 +3,7 @@
 <head>
 
 <div id="container_demo" >
-    <!-- hidden anchor to stop jump http://www.css3create.com/Astuce-Empecher-le-scroll-avec-l-utilisation-de-target#wrap4  -->
+    
     <a class="hiddenanchor" id="toregister"></a>
     <a class="hiddenanchor" id="tologin"></a>
     <div id="wrapper">
@@ -11,11 +11,11 @@
             <form  action="mysuperscript.php" autocomplete="on"> 
                 <h1>Log in</h1> 
                 <p> 
-                    <label for="username" class="uname" data-icon="u" > Your email or username </label>
+                    <label for="username" class="uname"> Your email or username </label>
                     <input id="username" name="username" required="required" type="text" placeholder="myusername or mymail@mail.com"/>
                 </p>
                 <p> 
-                    <label for="password" class="youpasswd" data-icon="p"> Your password </label>
+                    <label for="password" class="youpasswd"> Your password </label>
                     <input id="password" name="password" required="required" type="password" placeholder="eg. X8df!90EO" /> 
                 </p>
                 <p class="keeplogin"> 
@@ -27,7 +27,7 @@
                 </p>
                 <p class="change_link">
                     Not a member yet ?
-                    <a href="#toregister" class="to_register">Join us</a>
+                    <a href="new 8.html" class="to_register">Join us</a>
                 </p>
             </form>
         </div>
@@ -45,11 +45,11 @@
                 </p>
                 <p> 
                     <label for="passwordsignup" class="youpasswd" data-icon="p">Your password </label>
-                    <input id="passwordsignup" name="passwordsignup" required="required" type="password" placeholder="eg. X8df!90EO"/>
+                    <input id="passwordsignup" name="passwordsignup" required="required" type="password" placeholder="Your Password"/>
                 </p>
                 <p> 
                     <label for="passwordsignup_confirm" class="youpasswd" data-icon="p">Please confirm your password </label>
-                    <input id="passwordsignup_confirm" name="passwordsignup_confirm" required="required" type="password" placeholder="eg. X8df!90EO"/>
+                    <input id="passwordsignup_confirm" name="passwordsignup_confirm" required="required" type="password" placeholder="Your Password"/>
                 </p>
                 <p class="signin button"> 
                     <input type="submit" value="Sign up"/> 
@@ -224,7 +224,7 @@ p.signin.button{
 .keeplogin label{
     width: 80%;
 }
-p.change_link{
+#wrapper p.change_link{
     position: absolute;
     color: rgb(127, 124, 124);
     left: 0px;
