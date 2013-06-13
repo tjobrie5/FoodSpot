@@ -1,0 +1,28 @@
+<html>
+<head>
+<script>
+
+function myFunction()
+{
+var filename=document.getElementById('file').value;
+alert(filename);
+}
+</script>
+</head>
+<body>
+
+<form action="upload_file.php" method="post"
+enctype="multipart/form-data">
+<label for="file">Filename:</label>
+<input type="file" name="file" id="file"><br>
+
+
+<button onclick="myFunction()">Submit</button>
+
+</form>
+
+
+
+
+</body>
+</html>
