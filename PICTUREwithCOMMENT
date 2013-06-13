@@ -1,9 +1,7 @@
-<!DOCTYPE html>
-
 <html>
 
 <head>
-  <h1 style="font-family:verdana; font-size:50px"> FoodSpot</h1>
+	<h1 style="font-family:verdana; font-size:50px"> FoodSpot</h1>
 
 	<meta charset="utf-8" />
 	<title>FoodSpot</title>
@@ -86,7 +84,7 @@ text-align:center;
 <li><a href="friends.html" class="link4">Friends Spot</a></li>
 </ul>
 
-<div id="page">
+<div id="page"> <!-- CONTENTS OF PAGE CENTER COLUMNS */ -->
 <center>
 <h2 style:font-family:verdana; font-size:20px;>
 	Chicken Asparagus and Tomatoes Dinner!
@@ -129,7 +127,8 @@ text-align:center;
 						</div>
 		</div>
 
-</div>
+</div> <!-- END OF CENTER COLUMN */ -->
+
 <script src="File.js"></script>
 		
 
