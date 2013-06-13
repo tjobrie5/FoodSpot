@@ -9,16 +9,16 @@ Last name: <input type="text" name="lastname"><br>
 Password: <input type="password" name="pwd"><br>
 Email address: <input type="texst" name="emailaddress"><br>
 
-Are you male or famale?<br>
+Are you male or female?<br>
 <input type="radio" name="sex" value="male">MALE<br>
-<input type="radio" name="sex" value="male">Female<br>
+<input type="radio" name="sex" value="male">FEMALE<br>
 The reason you register?<br>
-<input type="checkbox" name="reason" value="overweight">OVERWEIGHT<br>
-<input type="checkbox" name="reason" value="food">FOOD<br>
-<input type="checkbox" name="reason" value="friend">FRIEND<br>
-<input type="checkbox" name="reason" value="healthy">HEALTHY<br>
-<input type="checkbox" name="reason" value="noidea">NOIDEA<br>
-<input type="checkbox" name="reason" value="hungry">HUNGRY<br>
+<input type="checkbox" name="reason" value="overweight">Overweight<br>
+<input type="checkbox" name="reason" value="food">Food<br>
+<input type="checkbox" name="reason" value="friend">Friend<br>
+<input type="checkbox" name="reason" value="healthy">Healthy<br>
+<input type="checkbox" name="reason" value="noidea">No Idea<br>
+<input type="checkbox" name="reason" value="hungry">Hungry<br>
 <input type="submit" value="submit"><br>
 </from>
 </body>
