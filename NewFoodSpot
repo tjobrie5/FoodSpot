@@ -3,7 +3,9 @@
 <html>
 
 <head>
-  <meta charset="utf-8" />
+	<h1 style="font-family:verdana; font-size:50px"> FoodSpot</h1>
+
+	<meta charset="utf-8" />
 	<title>FoodSpot</title>
 	
 	<form action="/html/tags/html_form_tag_action.cfm" method="post">
@@ -14,7 +16,7 @@
 body
 {
 
-background-color:#FFFF66;
+background-image:url('background.jpg');
 
 }
 
@@ -28,7 +30,7 @@ background-color:#FFFF66;
 
 #navigation a 
 {
-	background:#FFFFFF;
+	background:#FFFFCC;
 	display:block;
 	height:150px;
 	text-indent: 0px;
@@ -65,12 +67,12 @@ text-align:center;
 
 #page{
 	position:absolute;
-	background-color:#FFF;
-	width:400px;
-	height:400px;
+	background-color:#FFFFCC;
+	width:600px;
+	height:750px;
 	left:50%;
 	margin-left:-200px;
-	top: 25px;
+	top: 135px;
 	}
 </style>
 
@@ -84,13 +86,18 @@ text-align:center;
 <li><a href="friends.html" class="link4">Friends Spot</a></li>
 </ul>
 
-<div id="page">
+<div id="page"> <!-- CONTENTS OF PAGE CENTER COLUMNS */ -->
+<center>
+<h2 style:font-family:verdana; font-size:20px;>
+	Chicken Asparagus and Tomatoes Dinner!
+</h2>
 
-
+<img src="chicken.jpg" width="350" height="250">
+<br />
 <textarea name="comments" id="comments">
 </textarea><br />
 <input type="submit" value="Submit" />
-
+</center>
 <style>
 
 .friend #friend-image {
@@ -111,6 +118,7 @@ text-align:center;
     font-weight: normal;
     margin: 0 0 5px;
 }
+
 </style>
 			<div id ='username' class="friend">
 
@@ -120,8 +128,30 @@ text-align:center;
 							<p>Great food man!</p>
 						</div>
 		</div>
-</div>
-<script src="File.js"><script>
+		<br />
+		<div id ='username' class="friend">
+
+				<img id ='friend-image' src='http://4.bp.blogspot.com/-hGgD16bzJ0E/TiHsBW8q2MI/AAAAAAAABOA/TXt94JHsxX0/s1600/Funny+george+bush+1.jpg'>
+						<div id="friend-bio">
+							<h4> George W. Bush</h4>
+							<p>Food of MASS DESTRUCTION! </p>
+						</div>
+		</div>
+		<br />
+		<div id ='username' class="friend">
+
+				<img id ='friend-image' src='http://upload.wikimedia.org/wikipedia/commons/6/69/George_Foreman_2009.jpg'>
+						<div id="friend-bio">
+							<h4> Foreman Grillen</h4>
+							<p>Knock out meal son!! </p>
+						</div>
+		</div>
+		<br />
+
+
+</div> <!-- END OF CENTER COLUMN */ -->
+
+<script src="File.js"></script>
 		
 
 </body>
