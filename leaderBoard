@@ -1,12 +1,2 @@
-
-for(var i=0; i<users.length;i++)
-{
-
-document.write("Username: ");
-var s=users[i].username;
-document.write(s);
-
-document.write(", Points: ");
-var p=users[i].points;
-document.writeln(p); 
-}
+var users1=localStorage.getItem('users');
+document.write(users1);
