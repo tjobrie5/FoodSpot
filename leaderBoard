@@ -1,2 +1,10 @@
-var users1=localStorage.getItem('users');
-document.write(users1);
+ <script type="text/javascript" src="script.js"></script> 
+<script>
+alert(JSON.stringify(users));
+
+for(var i=0; i<users.length;i++){
+document.writeln("Username: " + users[i].username);
+document.writeln("Points: " +users[i].points);
+}
+
+</script>
