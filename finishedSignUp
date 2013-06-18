@@ -1,0 +1,50 @@
+<html>
+<head>
+<title>HTML Forms</title>
+</head>
+<body>
+<form>
+First name: <input type="text" name="firstname" id="firstname"><br>
+Last name: <input type="text" name="lastname"><br>
+Password: <input type="password" name="pwd"><br>
+Email address: <input type="texst" name="emailaddress"><br>
+
+Are you male or female?<br>
+<input type="radio" name="sex" value="male">Male<br>
+<input type="radio" name="sex" value="male">Female<br>
+The reason you want to register?<br>
+<input type="checkbox" name="reason" value="overweight">I want to lost weight<br>
+<input type="checkbox" name="reason" value="food"><For support from my community>
+<input type="checkbox" name="reason" value="friend">For motivation<br>
+<input type="checkbox" name="reason" value="healthy">To live a healthy lifestyle<br>
+
+<button onclick="addFunction()">Submit</button>
+
+</form>
+<script type="text/javascript" src="script.js"></script> 
+<script>
+
+//var name=document.getElementById('firstname').value;
+
+function addFunction()
+{
+var name=document.getElementById('firstname').value;
+//var newName=name.substring(1,name.length-1);
+alert(name);
+  			
+			
+var person3=new user(name,0)
+users[users.length]=person3;
+alert(JSON.stringify(person3));
+
+localStorage.users = JSON.stringify(users);
+
+				console.log(localStorage);
+}
+
+
+alert(JSON.stringify(users));
+
+</script>
+</body>
+</html>
