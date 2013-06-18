@@ -3,7 +3,7 @@
 <html>
 
 <head>
-  <h1 style="font-family:verdana; font-size:50px"> FoodSpot</h1>
+	<h1 style="font-family:verdana; font-size:50px"> FoodSpot</h1>
 
 	<meta charset="utf-8" />
 	<title>FoodSpot</title>
@@ -77,6 +77,12 @@ text-align:center;
 	top: 135px;
 	}
 
+#login{
+	position:absolute;
+	margin-left: 80%;
+	top:10px;
+}
+
 
 img.postpic{
 	width:100%;
@@ -95,6 +101,13 @@ div.postArea{
 
 <body>
 
+<ul id="login">
+	<script>
+	var x=localStorage.getItem('name');
+	var z=x.substring(1,x.length-1);
+	document.write("Currently logged in as: "+z);
+	</script>
+</ul>
 
 
 <ul id="navigation">
@@ -147,9 +160,9 @@ Name of picture
 
 
 
-var x=localStorage.getItem('name');
-var z=x.substring(1,x.length-1);
-document.write("Currently logged in as: "+z);
+//var x=localStorage.getItem('name');
+//var z=x.substring(1,x.length-1);
+//document.write("Currently logged in as: "+z);
 
 
 localStorage.users = JSON.stringify(users);
