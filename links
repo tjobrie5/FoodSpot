@@ -95,20 +95,21 @@ $(window).load(function() {
 </div>
 
 <title>More information about healthy food</title>
+<center>
 <a href="http://www.vitacost.com/"
   title= "Click here to check your site's 
-    links!">healthy food</a> 
+    links!">Vitacost</a> 
 	<hr>
-	
+
 	<a href="http://www.freshandeasy.com/"
   title= "Click here to check your site's 
-    links!">healthy food</a> 
+    links!">fresh&easy</a> 
 	<hr>
-	
+
 	<a href="http://www.naturalnews.com/index.html"
   title= "Click here to check your site's 
-    links!">healthy food</a> 
+    links!">Natural News</a> 
 	<hr>
-	
+</center>
 </body>
 </html>
