@@ -1,0 +1,196 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Blueberry - A simple, fluid, responsive jQuery image slider.</title>
+
+
+<link rel="stylesheet" href="blueberry.css" />
+<style type="text/css">
+table#links {
+  margin:0 auto;
+}
+table#links td{
+	padding:30px;
+}
+<!--
+* {
+	margin: 0;
+	border: 0;
+	padding: 0;
+}
+body {
+	background: #f0f0f0;
+	font: 28px/40px Arial, San-Serif;
+	color: #404040;
+}
+a { color: #264c99; text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+h1,h2,h3,h4,p { margin-bottom: 10px; }
+h1 {
+	font-size: 24px;
+	line-height: 30px;
+	color: #ffffff;
+	text-transform: lowercase;
+}
+h2, h3 {
+	font-weight: normal;
+	font-size: 22px;
+	line-height: 40px;
+	color: #808080;
+}
+h3 { font-size: 18px; color: #404040; }
+h5 { font-weight: bold; font-size: 14px; color: #000; }
+
+#header {
+	height: 85px;
+	padding-top: 20px; padding-bottom: 20px;
+	text-align: center;
+	background: #ffffff;
+}
+#header h1 {
+	margin: 0 auto;
+	min-width: 370px;
+	max-width: 570px;
+}
+#doc { margin: 40px 0; }
+#content {
+	margin: 0 auto;
+	min-width: 370px;
+	max-width: 570px;
+}
+
+.blueberry { max-width: 580px; }
+
+-->
+</style>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+<script src="jquery.blueberry.js"></script>
+
+<script>
+$(window).load(function() {
+	$('.blueberry').blueberry();
+});
+</script>
+
+</head>
+<body>
+
+<div id="header">
+  <h1><img src="https://fbcdn-sphotos-c-a.akamaihd.net/hphotos-ak-prn2/971107_491295327623403_140900917_n.jpg" alt="Logo" /></h1>
+</div>
+
+<div id="doc">
+  <div id="content">
+
+
+    <div class="blueberry">
+      <ul class="slides">
+        <li><img src="http://images.cdn.fotopedia.com/flickr-5040304297-hd.jpg" /></li>
+        <li><img src="http://upload.wikimedia.org/wikipedia/commons/5/54/Healthy_food.jpg" /></li>
+		<li><img src="http://farm4.staticflickr.com/3269/2508061511_343d335273_o.jpg" /></li>
+        <li><img src="http://images.cdn.fotopedia.com/flickr-2186673560-hd.jpg" /></li>
+        <li><img src="http://upload.wikimedia.org/wikipedia/commons/3/3a/Capsicum_annuum_fruits_IMGP0044.jpg" /></li>
+      </ul>
+    </div>
+
+
+  </div>
+</div>
+
+   <center>
+<title>More information about healthy food</title>
+
+
+	<hr>
+	
+	
+	<hr>
+	
+	
+	<hr>
+	</center>
+	
+	<table id="links">
+		<tr>
+		
+			
+		
+		<td>
+
+		<b>Heathly Food</b>
+		
+			</td>
+			<td>
+			
+			<b>Video</b>
+			
+			</td>
+			<td>
+			<b>More Information</b>
+			</td>
+		</tr>
+		
+		
+		
+		
+		<tr>
+		
+			
+		
+		<td><a href="http://www.vitacost.com/"
+  title= "Click here to check your site's 
+    links!">vitacost</a> 
+			</td>
+			<td><a href="http://www.youtube.com/watch?v=KG_ybdk1VaE"
+  title= "Click here to check your site's 
+    links!">butter vs margarine</a> 
+			</td>
+			<td><a href="http://www.naturalnews.com/index.html"
+  title= "Click here to check your site's 
+    links!">natural news</a> 
+			</td>
+		</tr>
+		
+		
+		
+		
+		<tr>
+			<td><a href="http://www.simpletruth.com/products/?cmp=GooglePPC&gclid=CN_ggsPU8LcCFQ9eQgodFX8AnQ"
+  title= "Click here to check your site's 
+    links!">simple truth</a> 
+			</td>
+			<td><a href="http://www.youtube.com/watch?v=BwqAelWSgHk"
+  title= "Click here to check your site's 
+    links!">beating overeating</a> 
+			</td>
+			<td><a href="http://nutritionfacts.org/"
+  title= "Click here to check your site's 
+    links!">nutrition facts</a> 
+			</td>
+		</tr>
+		
+		
+		
+		
+		
+		<tr>
+			<td><a href="http://www.freshandeasy.com/"
+  title= "Click here to check your site's 
+    links!">fresh and easy</a> 
+			</td>
+			<td><a href="http://www.youtube.com/watch?v=HA00ZctGz50"
+  title= "Click here to check your site's 
+    links!">Scientific Weight Loss Tips</a> 
+			</td>
+			<td><a href="http://nutritiondata.self.com/"
+  title= "Click here to check your site's 
+    links!">nutrition data</a> 
+			</td>
+		</tr>
+	</table>
+</body>
+
+</html>
